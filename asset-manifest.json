@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shernee/codenames/static/css/main.d4fd3a16.chunk.css",
+    "main.js": "/shernee/codenames/static/js/main.b64c5771.chunk.js",
+    "main.js.map": "/shernee/codenames/static/js/main.b64c5771.chunk.js.map",
+    "runtime-main.js": "/shernee/codenames/static/js/runtime-main.e48bc0aa.js",
+    "runtime-main.js.map": "/shernee/codenames/static/js/runtime-main.e48bc0aa.js.map",
+    "static/js/2.6cdfc3d8.chunk.js": "/shernee/codenames/static/js/2.6cdfc3d8.chunk.js",
+    "static/js/2.6cdfc3d8.chunk.js.map": "/shernee/codenames/static/js/2.6cdfc3d8.chunk.js.map",
+    "index.html": "/shernee/codenames/index.html",
+    "precache-manifest.7059fdb03740a0047372caf2c466a33b.js": "/shernee/codenames/precache-manifest.7059fdb03740a0047372caf2c466a33b.js",
+    "service-worker.js": "/shernee/codenames/service-worker.js",
+    "static/css/main.d4fd3a16.chunk.css.map": "/shernee/codenames/static/css/main.d4fd3a16.chunk.css.map",
+    "static/js/2.6cdfc3d8.chunk.js.LICENSE.txt": "/shernee/codenames/static/js/2.6cdfc3d8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e48bc0aa.js",
+    "static/js/2.6cdfc3d8.chunk.js",
+    "static/css/main.d4fd3a16.chunk.css",
+    "static/js/main.b64c5771.chunk.js"
+  ]
+}
