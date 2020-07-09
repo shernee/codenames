@@ -1,0 +1,947 @@
+{
+    "target_id": "root",
+    "root_id": "1396",
+    "doc": {
+        "roots": {
+            "references": [
+                {
+                    "attributes": {
+                        "active_drag": "auto",
+                        "active_inspect": "auto",
+                        "active_multi": null,
+                        "active_scroll": "auto",
+                        "active_tap": "auto",
+                        "tools": [
+                            {
+                                "id": "1414"
+                            },
+                            {
+                                "id": "1415"
+                            },
+                            {
+                                "id": "1416"
+                            },
+                            {
+                                "id": "1417"
+                            },
+                            {
+                                "id": "1418"
+                            },
+                            {
+                                "id": "1419"
+                            },
+                            {
+                                "id": "1421"
+                            }
+                        ]
+                    },
+                    "id": "1422",
+                    "type": "Toolbar"
+                },
+                {
+                    "attributes": {
+                        "axis": {
+                            "id": "1407"
+                        },
+                        "grid_line_color": null,
+                        "ticker": null
+                    },
+                    "id": "1409",
+                    "type": "Grid"
+                },
+                {
+                    "attributes": {
+                        "fields": []
+                    },
+                    "id": "1430",
+                    "type": "Stack"
+                },
+                {
+                    "attributes": {
+                        "items": [
+                            {
+                                "id": "1455"
+                            },
+                            {
+                                "id": "1456"
+                            },
+                            {
+                                "id": "1457"
+                            }
+                        ],
+                        "location": [
+                            30,
+                            50
+                        ]
+                    },
+                    "id": "1454",
+                    "type": "Legend"
+                },
+                {
+                    "attributes": {},
+                    "id": "1417",
+                    "type": "SaveTool"
+                },
+                {
+                    "attributes": {
+                        "label": {
+                            "value": "Pending"
+                        },
+                        "renderers": [
+                            {
+                                "id": "1440"
+                            }
+                        ]
+                    },
+                    "id": "1455",
+                    "type": "LegendItem"
+                },
+                {
+                    "attributes": {
+                        "axis_line_color": "#C7CDD7",
+                        "formatter": {
+                            "id": "1462"
+                        },
+                        "major_label_text_color": "#64666b",
+                        "major_tick_line_color": null,
+                        "minor_tick_line_color": null,
+                        "ticker": {
+                            "id": "1408"
+                        }
+                    },
+                    "id": "1407",
+                    "type": "CategoricalAxis"
+                },
+                {
+                    "attributes": {},
+                    "id": "1462",
+                    "type": "CategoricalTickFormatter"
+                },
+                {
+                    "attributes": {
+                        "source": {
+                            "id": "1436"
+                        }
+                    },
+                    "id": "1441",
+                    "type": "CDSView"
+                },
+                {
+                    "attributes": {},
+                    "id": "1408",
+                    "type": "CategoricalTicker"
+                },
+                {
+                    "attributes": {
+                        "source": {
+                            "id": "1448"
+                        }
+                    },
+                    "id": "1453",
+                    "type": "CDSView"
+                },
+                {
+                    "attributes": {
+                        "data": {
+                            "Completed": [
+                                0.29411764705882354,
+                                0.26666666666666666,
+                                0.4358974358974359,
+                                0.07894736842105263,
+                                0.575,
+                                0.6388888888888888
+                            ],
+                            "Failed": [
+                                0.17647058823529413,
+                                0.24444444444444444,
+                                0.15384615384615385,
+                                0.34210526315789475,
+                                0.2,
+                                0.2777777777777778
+                            ],
+                            "Pending": [
+                                0.5294117647058824,
+                                0.4888888888888889,
+                                0.41025641025641024,
+                                0.5789473684210527,
+                                0.225,
+                                0.08333333333333333
+                            ],
+                            "c_count": [
+                                5,
+                                12,
+                                17,
+                                3,
+                                23,
+                                23
+                            ],
+                            "drivers": [
+                                "A",
+                                "B",
+                                "C",
+                                "D",
+                                "E",
+                                "F"
+                            ],
+                            "f_count": [
+                                3,
+                                11,
+                                6,
+                                13,
+                                8,
+                                10
+                            ],
+                            "p_count": [
+                                9,
+                                22,
+                                16,
+                                22,
+                                9,
+                                3
+                            ]
+                        },
+                        "selected": {
+                            "id": "1467"
+                        },
+                        "selection_policy": {
+                            "id": "1468"
+                        }
+                    },
+                    "id": "1442",
+                    "type": "ColumnDataSource"
+                },
+                {
+                    "attributes": {
+                        "data": {
+                            "Completed": [
+                                0.29411764705882354,
+                                0.26666666666666666,
+                                0.4358974358974359,
+                                0.07894736842105263,
+                                0.575,
+                                0.6388888888888888
+                            ],
+                            "Failed": [
+                                0.17647058823529413,
+                                0.24444444444444444,
+                                0.15384615384615385,
+                                0.34210526315789475,
+                                0.2,
+                                0.2777777777777778
+                            ],
+                            "Pending": [
+                                0.5294117647058824,
+                                0.4888888888888889,
+                                0.41025641025641024,
+                                0.5789473684210527,
+                                0.225,
+                                0.08333333333333333
+                            ],
+                            "c_count": [
+                                5,
+                                12,
+                                17,
+                                3,
+                                23,
+                                23
+                            ],
+                            "drivers": [
+                                "A",
+                                "B",
+                                "C",
+                                "D",
+                                "E",
+                                "F"
+                            ],
+                            "f_count": [
+                                3,
+                                11,
+                                6,
+                                13,
+                                8,
+                                10
+                            ],
+                            "p_count": [
+                                9,
+                                22,
+                                16,
+                                22,
+                                9,
+                                3
+                            ]
+                        },
+                        "selected": {
+                            "id": "1469"
+                        },
+                        "selection_policy": {
+                            "id": "1470"
+                        }
+                    },
+                    "id": "1448",
+                    "type": "ColumnDataSource"
+                },
+                {
+                    "attributes": {
+                        "axis": {
+                            "id": "1410"
+                        },
+                        "dimension": 1,
+                        "grid_line_dash": [
+                            3,
+                            3
+                        ],
+                        "ticker": null
+                    },
+                    "id": "1413",
+                    "type": "Grid"
+                },
+                {
+                    "attributes": {
+                        "bottom": {
+                            "expr": {
+                                "id": "1434"
+                            }
+                        },
+                        "fill_alpha": {
+                            "value": 0.1
+                        },
+                        "fill_color": {
+                            "value": "#EB3B3B"
+                        },
+                        "line_alpha": {
+                            "value": 0.1
+                        },
+                        "line_color": {
+                            "value": "#EB3B3B"
+                        },
+                        "top": {
+                            "expr": {
+                                "id": "1435"
+                            }
+                        },
+                        "width": {
+                            "value": 0.64
+                        },
+                        "x": {
+                            "field": "drivers"
+                        }
+                    },
+                    "id": "1451",
+                    "type": "VBar"
+                },
+                {
+                    "attributes": {},
+                    "id": "1414",
+                    "type": "PanTool"
+                },
+                {
+                    "attributes": {},
+                    "id": "1465",
+                    "type": "Selection"
+                },
+                {
+                    "attributes": {
+                        "below": [
+                            {
+                                "id": "1407"
+                            }
+                        ],
+                        "center": [
+                            {
+                                "id": "1409"
+                            },
+                            {
+                                "id": "1413"
+                            }
+                        ],
+                        "left": [
+                            {
+                                "id": "1410"
+                            }
+                        ],
+                        "outline_line_color": null,
+                        "plot_height": 450,
+                        "plot_width": 900,
+                        "renderers": [
+                            {
+                                "id": "1440"
+                            },
+                            {
+                                "id": "1446"
+                            },
+                            {
+                                "id": "1452"
+                            }
+                        ],
+                        "right": [
+                            {
+                                "id": "1454"
+                            }
+                        ],
+                        "title": {
+                            "id": "1397"
+                        },
+                        "toolbar": {
+                            "id": "1422"
+                        },
+                        "x_range": {
+                            "id": "1399"
+                        },
+                        "x_scale": {
+                            "id": "1403"
+                        },
+                        "y_range": {
+                            "id": "1401"
+                        },
+                        "y_scale": {
+                            "id": "1405"
+                        }
+                    },
+                    "id": "1396",
+                    "subtype": "Figure",
+                    "type": "Plot"
+                },
+                {
+                    "attributes": {
+                        "data": {
+                            "Completed": [
+                                0.29411764705882354,
+                                0.26666666666666666,
+                                0.4358974358974359,
+                                0.07894736842105263,
+                                0.575,
+                                0.6388888888888888
+                            ],
+                            "Failed": [
+                                0.17647058823529413,
+                                0.24444444444444444,
+                                0.15384615384615385,
+                                0.34210526315789475,
+                                0.2,
+                                0.2777777777777778
+                            ],
+                            "Pending": [
+                                0.5294117647058824,
+                                0.4888888888888889,
+                                0.41025641025641024,
+                                0.5789473684210527,
+                                0.225,
+                                0.08333333333333333
+                            ],
+                            "c_count": [
+                                5,
+                                12,
+                                17,
+                                3,
+                                23,
+                                23
+                            ],
+                            "drivers": [
+                                "A",
+                                "B",
+                                "C",
+                                "D",
+                                "E",
+                                "F"
+                            ],
+                            "f_count": [
+                                3,
+                                11,
+                                6,
+                                13,
+                                8,
+                                10
+                            ],
+                            "p_count": [
+                                9,
+                                22,
+                                16,
+                                22,
+                                9,
+                                3
+                            ]
+                        },
+                        "selected": {
+                            "id": "1465"
+                        },
+                        "selection_policy": {
+                            "id": "1466"
+                        }
+                    },
+                    "id": "1436",
+                    "type": "ColumnDataSource"
+                },
+                {
+                    "attributes": {
+                        "format": "0 %"
+                    },
+                    "id": "1458",
+                    "type": "NumeralTickFormatter"
+                },
+                {
+                    "attributes": {
+                        "label": {
+                            "value": "Failed"
+                        },
+                        "renderers": [
+                            {
+                                "id": "1452"
+                            }
+                        ]
+                    },
+                    "id": "1457",
+                    "type": "LegendItem"
+                },
+                {
+                    "attributes": {
+                        "data_source": {
+                            "id": "1448"
+                        },
+                        "glyph": {
+                            "id": "1450"
+                        },
+                        "hover_glyph": null,
+                        "muted_glyph": null,
+                        "name": "Failed",
+                        "nonselection_glyph": {
+                            "id": "1451"
+                        },
+                        "selection_glyph": null,
+                        "view": {
+                            "id": "1453"
+                        }
+                    },
+                    "id": "1452",
+                    "type": "GlyphRenderer"
+                },
+                {
+                    "attributes": {
+                        "fields": [
+                            "Pending"
+                        ]
+                    },
+                    "id": "1432",
+                    "type": "Stack"
+                },
+                {
+                    "attributes": {
+                        "text": "Fleet Operations"
+                    },
+                    "id": "1397",
+                    "type": "Title"
+                },
+                {
+                    "attributes": {
+                        "bottom": {
+                            "expr": {
+                                "id": "1434"
+                            }
+                        },
+                        "fill_color": {
+                            "value": "#EB3B3B"
+                        },
+                        "line_color": {
+                            "value": "#EB3B3B"
+                        },
+                        "top": {
+                            "expr": {
+                                "id": "1435"
+                            }
+                        },
+                        "width": {
+                            "value": 0.64
+                        },
+                        "x": {
+                            "field": "drivers"
+                        }
+                    },
+                    "id": "1450",
+                    "type": "VBar"
+                },
+                {
+                    "attributes": {
+                        "fields": [
+                            "Pending"
+                        ]
+                    },
+                    "id": "1431",
+                    "type": "Stack"
+                },
+                {
+                    "attributes": {},
+                    "id": "1405",
+                    "type": "LinearScale"
+                },
+                {
+                    "attributes": {
+                        "bottom": {
+                            "expr": {
+                                "id": "1430"
+                            }
+                        },
+                        "fill_alpha": {
+                            "value": 0.1
+                        },
+                        "fill_color": {
+                            "value": "#002A6D"
+                        },
+                        "line_alpha": {
+                            "value": 0.1
+                        },
+                        "line_color": {
+                            "value": "#002A6D"
+                        },
+                        "top": {
+                            "expr": {
+                                "id": "1431"
+                            }
+                        },
+                        "width": {
+                            "value": 0.64
+                        },
+                        "x": {
+                            "field": "drivers"
+                        }
+                    },
+                    "id": "1439",
+                    "type": "VBar"
+                },
+                {
+                    "attributes": {},
+                    "id": "1415",
+                    "type": "WheelZoomTool"
+                },
+                {
+                    "attributes": {
+                        "bottom_units": "screen",
+                        "fill_alpha": 0.5,
+                        "fill_color": "lightgrey",
+                        "left_units": "screen",
+                        "level": "overlay",
+                        "line_alpha": 1.0,
+                        "line_color": "black",
+                        "line_dash": [
+                            4,
+                            4
+                        ],
+                        "line_width": 2,
+                        "render_mode": "css",
+                        "right_units": "screen",
+                        "top_units": "screen"
+                    },
+                    "id": "1420",
+                    "type": "BoxAnnotation"
+                },
+                {
+                    "attributes": {
+                        "fields": [
+                            "Pending",
+                            "Completed"
+                        ]
+                    },
+                    "id": "1433",
+                    "type": "Stack"
+                },
+                {
+                    "attributes": {},
+                    "id": "1403",
+                    "type": "CategoricalScale"
+                },
+                {
+                    "attributes": {},
+                    "id": "1419",
+                    "type": "HelpTool"
+                },
+                {
+                    "attributes": {
+                        "fields": [
+                            "Pending",
+                            "Completed",
+                            "Failed"
+                        ]
+                    },
+                    "id": "1435",
+                    "type": "Stack"
+                },
+                {
+                    "attributes": {
+                        "data_source": {
+                            "id": "1442"
+                        },
+                        "glyph": {
+                            "id": "1444"
+                        },
+                        "hover_glyph": null,
+                        "muted_glyph": null,
+                        "name": "Completed",
+                        "nonselection_glyph": {
+                            "id": "1445"
+                        },
+                        "selection_glyph": null,
+                        "view": {
+                            "id": "1447"
+                        }
+                    },
+                    "id": "1446",
+                    "type": "GlyphRenderer"
+                },
+                {
+                    "attributes": {
+                        "factors": [
+                            "A",
+                            "B",
+                            "C",
+                            "D",
+                            "E",
+                            "F"
+                        ]
+                    },
+                    "id": "1399",
+                    "type": "FactorRange"
+                },
+                {
+                    "attributes": {
+                        "source": {
+                            "id": "1442"
+                        }
+                    },
+                    "id": "1447",
+                    "type": "CDSView"
+                },
+                {
+                    "attributes": {
+                        "start": 0
+                    },
+                    "id": "1401",
+                    "type": "DataRange1d"
+                },
+                {
+                    "attributes": {},
+                    "id": "1418",
+                    "type": "ResetTool"
+                },
+                {
+                    "attributes": {},
+                    "id": "1411",
+                    "type": "BasicTicker"
+                },
+                {
+                    "attributes": {
+                        "callback": null,
+                        "tooltips": [
+                            [
+                                "Driver",
+                                "@drivers"
+                            ],
+                            [
+                                "Pending",
+                                "@p_count"
+                            ],
+                            [
+                                "Completed",
+                                "@c_count"
+                            ],
+                            [
+                                "Failed",
+                                "@f_count"
+                            ]
+                        ]
+                    },
+                    "id": "1421",
+                    "type": "HoverTool"
+                },
+                {
+                    "attributes": {
+                        "bottom": {
+                            "expr": {
+                                "id": "1432"
+                            }
+                        },
+                        "fill_alpha": {
+                            "value": 0.1
+                        },
+                        "fill_color": {
+                            "value": "#3AD9A2"
+                        },
+                        "line_alpha": {
+                            "value": 0.1
+                        },
+                        "line_color": {
+                            "value": "#3AD9A2"
+                        },
+                        "top": {
+                            "expr": {
+                                "id": "1433"
+                            }
+                        },
+                        "width": {
+                            "value": 0.64
+                        },
+                        "x": {
+                            "field": "drivers"
+                        }
+                    },
+                    "id": "1445",
+                    "type": "VBar"
+                },
+                {
+                    "attributes": {
+                        "axis_line_width": 0,
+                        "formatter": {
+                            "id": "1458"
+                        },
+                        "major_label_text_color": "#64666b",
+                        "major_tick_line_color": null,
+                        "minor_tick_line_color": null,
+                        "ticker": {
+                            "id": "1411"
+                        }
+                    },
+                    "id": "1410",
+                    "type": "LinearAxis"
+                },
+                {
+                    "attributes": {},
+                    "id": "1469",
+                    "type": "Selection"
+                },
+                {
+                    "attributes": {
+                        "overlay": {
+                            "id": "1420"
+                        }
+                    },
+                    "id": "1416",
+                    "type": "BoxZoomTool"
+                },
+                {
+                    "attributes": {
+                        "fields": [
+                            "Pending",
+                            "Completed"
+                        ]
+                    },
+                    "id": "1434",
+                    "type": "Stack"
+                },
+                {
+                    "attributes": {
+                        "data_source": {
+                            "id": "1436"
+                        },
+                        "glyph": {
+                            "id": "1438"
+                        },
+                        "hover_glyph": null,
+                        "muted_glyph": null,
+                        "name": "Pending",
+                        "nonselection_glyph": {
+                            "id": "1439"
+                        },
+                        "selection_glyph": null,
+                        "view": {
+                            "id": "1441"
+                        }
+                    },
+                    "id": "1440",
+                    "type": "GlyphRenderer"
+                },
+                {
+                    "attributes": {
+                        "label": {
+                            "value": "Completed"
+                        },
+                        "renderers": [
+                            {
+                                "id": "1446"
+                            }
+                        ]
+                    },
+                    "id": "1456",
+                    "type": "LegendItem"
+                },
+                {
+                    "attributes": {},
+                    "id": "1470",
+                    "type": "UnionRenderers"
+                },
+                {
+                    "attributes": {},
+                    "id": "1466",
+                    "type": "UnionRenderers"
+                },
+                {
+                    "attributes": {},
+                    "id": "1467",
+                    "type": "Selection"
+                },
+                {
+                    "attributes": {
+                        "bottom": {
+                            "expr": {
+                                "id": "1430"
+                            }
+                        },
+                        "fill_color": {
+                            "value": "#002A6D"
+                        },
+                        "line_color": {
+                            "value": "#002A6D"
+                        },
+                        "top": {
+                            "expr": {
+                                "id": "1431"
+                            }
+                        },
+                        "width": {
+                            "value": 0.64
+                        },
+                        "x": {
+                            "field": "drivers"
+                        }
+                    },
+                    "id": "1438",
+                    "type": "VBar"
+                },
+                {
+                    "attributes": {
+                        "bottom": {
+                            "expr": {
+                                "id": "1432"
+                            }
+                        },
+                        "fill_color": {
+                            "value": "#3AD9A2"
+                        },
+                        "line_color": {
+                            "value": "#3AD9A2"
+                        },
+                        "top": {
+                            "expr": {
+                                "id": "1433"
+                            }
+                        },
+                        "width": {
+                            "value": 0.64
+                        },
+                        "x": {
+                            "field": "drivers"
+                        }
+                    },
+                    "id": "1444",
+                    "type": "VBar"
+                },
+                {
+                    "attributes": {},
+                    "id": "1468",
+                    "type": "UnionRenderers"
+                }
+            ],
+            "root_ids": [
+                "1396"
+            ]
+        },
+        "title": "",
+        "version": "2.0.2"
+    }
+}

@@ -1,0 +1,37 @@
+.main-container {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+h2 {
+    font-family:Courier New,monospace;
+}
+
+.status-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-turn {
+    font-weight:normal;
+    font-size: 16px;
+}
+.title-button {
+    height:20px;
+}
+
+.cell-style {
+    cursor:pointer;
+    width:20%;
+    height:15%;
+    border:5px solid white;
+    line-height: 100px;
+    text-transform:uppercase
+}
+
+.row-style {
+    display:flex;
+    align-items:center;
+}

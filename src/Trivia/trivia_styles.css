@@ -1,0 +1,11 @@
+.btn-group > button {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+}

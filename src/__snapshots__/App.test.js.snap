@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`take a snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="main-container"
+    >
+      <div
+        style="width: 40%; text-align: center;"
+      >
+        <div
+          style="color: black;"
+        >
+          <h1>
+            Indias capital is
+          </h1>
+        </div>
+        <div
+          class="btn-group"
+        >
+          <button>
+            Kolkata
+          </button>
+        </div>
+        <div
+          class="btn-group"
+        >
+          <button>
+            New Delhi
+          </button>
+        </div>
+        <div
+          class="btn-group"
+        >
+          <button>
+            Bangalore
+          </button>
+        </div>
+        <div
+          class="btn-group"
+        >
+          <button>
+            Mumbai
+          </button>
+        </div>
+      </div>
+      <div>
+        <h2
+          style="color: green;"
+        >
+          Correct: 0
+        </h2>
+        <h2
+          style="color: red;"
+        >
+          Incorrect: 0
+        </h2>
+      </div>
+    </div>
+    <br />
+  </div>
+</DocumentFragment>
+`;

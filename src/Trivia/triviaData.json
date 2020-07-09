@@ -1,0 +1,15 @@
+{
+	"questions": ["Indias capital is", 
+		"17 X 8", 
+		"Prime Minister of India", 
+		"Which event is NOT part of a Decathlon", 
+		"Which planet has the most gravity", 
+		"Which country produces the most coffee in the world"],
+	"answers": [["Kolkata", "New Delhi", "Bangalore", "Mumbai"], 
+	["136","154","147","166"], 
+	["Amit Shah", "Nitin Gadkari", "Narendra Modi", "Rajnath Singh"], 
+	["Javelin throw", "Hammer throw", "Discuss throw", "Shot put"],
+	["Saturn", "Uranus", "Earth", "Jupiter"], 
+	["Vietnam", "Colombia", "Brazil", "Ethiopia"]],
+	"key": {"0": 2, "1": 1, "2": 3, "3": 2, "4": 4, "5": 3}
+}

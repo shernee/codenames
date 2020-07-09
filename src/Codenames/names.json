@@ -1,0 +1,12 @@
+{
+    "English": ["AFRICA","BELT","CROSS","DRAFT","EGYPT",
+        "FIGHTER","GENIUS","HELICOPTER","IVORY","JUPITER",
+        "KNIFE","LITTER","MICROSCOPE","NINJA","OPERA",
+        "PART","QUEEN","ROBIN","SCHOOL","TEMPLE",
+        "UNDERTAKER","VET","WALL","YARD","LIFE"],
+    "colorCode": [["dodgerblue","#D80000","peachpuff","#D80000","dodgerblue"],
+                ["#D80000","dodgerblue","#D80000","peachpuff","dodgerblue"],
+                ["dodgerblue","#D80000","black","#D80000","peachpuff"],
+                ["peachpuff","dodgerblue","#D80000","peachpuff","dodgerblue"],
+                ["dodgerblue","#D80000","peachpuff","dodgerblue","peachpuff"]]
+}
